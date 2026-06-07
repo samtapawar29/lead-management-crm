@@ -12,13 +12,7 @@ connectDB();
 
 const app = express();
 
-app.use(
-cors({
-origin:
-"https://lead-management-crm-f5wx.vercel.app",
-credentials: true,
-})
-);
+app.use(cors());
 
 app.use(express.json());
 
