@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:8000/api/auth";
+  "https://lead-management-crm-8pzc.onrender.com/api/auth";
 
 export const registerUser = (data) =>
   axios.post(
